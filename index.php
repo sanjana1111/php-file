@@ -38,4 +38,41 @@ echo "\ndivision:".$value;
 $value= $f%$s;
 echo "\nmodular:".$value;
 
+
+//increment /dicrement operators
+$a=22;
+
+$a++;
+echo "\ndecrement:".$a++;
+
+$a--;
+echo "\nincrement:".$a--;
+
+//comparision operator
+
+$x=9;
+$y=8;
+//==sign
+var_dump($x==$y);
+
+//!=sign
+var_dump($x!=$y);
+
+//<=sign
+var_dump($x<=$y);
+
+//>=sign
+var_dump($x>=$y);
+
+//<sign
+var_dump($x<$y);
+
+//>sign
+var_dump($x>$y);
+
+//logical & ternary [conditation] operator
+
+
+
+
 ?>
